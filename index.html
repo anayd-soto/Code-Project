@@ -9,8 +9,10 @@
 
 <body>
 
-    <header class="orange">
-        <h1>Orange</h1>
+<!-- S0. HEADER -->
+
+    <header id="header" class="orange">
+        <h1 id="logo">Orange</h1>
         <nav>
             <a href="#">Benefits</a>
             <a href="#">Pricing</a>
@@ -18,45 +20,94 @@
         </nav>
     </header>
 
+<!-- S1. MAIN -->
+
     <main id="main" class="orange">
-        <img src="iphone.png">
+        <img id="mobile" src="iphone.png">
         <div>
             <h2>Subscribe today and get notified first when we launch Orange app!</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.</p>
             <form>
-                <input type="email" id="email" name="email" placeholder="type your email adress"<br>
-                <input type="submit" value="Suscribe Now">
+                <input type="email" id="email" name="email" placeholder="type your email adress"><br>
+                <input type="submit" id="suscribe" value="Suscribe Now">
             </form>
         </div>
-
     </main>
 
-    <section id:1></section>
-        <div>
-            <img src="#" alt="image1">
+<!-- S2. BENEFIT -->
+
+    <section id="benefits">
+        <div class="textblock">
+            <img src="illustration-1.png" alt="img1">
             <h3>Tittle 1</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
         </div>
-        <div>
-            <img src="#" alt="image1">
+        <div class="textblock">
+            <img src="illustration-2.png" alt="img2">
             <h3>Tittle 2</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
         </div>
-        <div>
-            <img src="#" alt="image1">
+        <div class="textblock">
+            <img src="illustration-3.png" alt="img3">
             <h3>Tittle 3</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
         </div>
-    <section id:2></section>
-        <div>
-            <img src="#" alt="image1">
-            <h3>Tittle</h3>
-            <p>text</p>
+    </section>
+
+    <!-- S3. PRICING -->
+
+    <section id="pricing">
+        <div id=orangemob>
+            <div id="circle_bg">
+            <img src="clay-white.png" alt="image1">
+            </div>
         </div>
-    <section id:3></section>
+        <div>    
+            <h2 class=orangetitle>It takes like premium</h2>
+            <h3>Betther than an apple</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.</p>
+            <form>
+                <input type="submit" id="suscribe" value="Suscribe Now">
+            </form>
+        </div>
+    </section>
+
+<!-- S4. TESTIMONIALS -->
+
+    <section id="Testimonials">
+        <div id="imgtitle">
+            <img src="quote.png" alt="image1">
+            <h3 class=orangetitle>What Our<br>
+                Customers Say</h3>
+        </div>
+        <div id=testimonials_bg>
+            <div id="circle_bg">
+
+            </div>
+
+    </section>
+
+    <section id=final>
+
+        <h2 class=orangetitle>Suscribe today and get notified first</h2>
+        <form>
+                <input type="email" id="email" name="email" placeholder="type your email adress"><br>
+                <input type="submit" id="suscribe" value="Suscribe Now">
+        </form>
     
-    <section id:4></section>
-    <footer></footer>
+
+    </section>
+   
+<!-- FOOTER -->
+
+    <footer class="orange">
+        <p class=orange>© 2019 Orange All Right Reserved</p>
+        <nav>
+            <a href="#">Benefits /</a>
+            <a href="#">Pricing /</a>
+            <a href="#">Testimonials</a>
+        </nav>
+    </footer>
 
 </body>
 </html>
